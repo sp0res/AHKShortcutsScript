@@ -93,7 +93,7 @@ return
 
 	ControlgetText, Filename, , Save
 
-	ControlSetText, , O:\!023811737\LEAK6564561\!!bestleak\%FileName%, Save
+	ControlSetText, , O:\SAVE_PATH\%FileName%, Save
 
 	ControlClick , &Save, Save, , , , NA
 
@@ -111,7 +111,7 @@ return
 
 	ControlgetText, Filename, , Save
 
-	ControlSetText, , O:\!023811737\!!\%FileName%, Save
+	ControlSetText, , O:\SAVE_PATH\%FileName%, Save
 
 	ControlClick , &Save, Save, , , , NA
 
